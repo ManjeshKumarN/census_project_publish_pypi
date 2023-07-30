@@ -16,6 +16,7 @@ setup(
     dag = get_airflow_dag_pipeline()
     ```
     """,
+    long_description = "This is a test deployment",
     author="Manjesh Kumar",
     packages=find_packages(),
     install_requires=['tfx==1.6.1', 'apache-beam[interactive]', 'apache-airflow']
