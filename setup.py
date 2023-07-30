@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="airflow-census",
+     name="tfx-deep-learning-continous-training-pipeline",
     license="MIT",
-    version="0.0.0",
+    version="0.0.1",
     description="""
     This project is created to provide a simple way to
     ingest data from the Census API.
@@ -20,7 +20,7 @@ setup(
 
 
     """,
-    author="Avnish Yadav",
+    author="Manjesh Kumar",
     packages=find_packages(),
     install_requires=['tfx==1.6.1', 'apache-beam[interactive]', 'apache-airflow']
 )
